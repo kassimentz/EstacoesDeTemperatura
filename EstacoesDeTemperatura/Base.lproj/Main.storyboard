@@ -1,18 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GWd-WN-rHQ">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Kl6-VW-uQC">
             <objects>
-                <viewController id="GWd-WN-rHQ" sceneMemberID="viewController">
+                <viewController id="GWd-WN-rHQ" customClass="MapViewController" customModule="EstacoesDeTemperatura" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YUL-Xp-07K"/>
                         <viewControllerLayoutGuide type="bottom" id="Qi6-dI-DOr"/>
@@ -21,9 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="amg-vF-cle">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                            </mapView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="amg-vF-cle"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -33,6 +28,9 @@
                             <constraint firstItem="Qi6-dI-DOr" firstAttribute="top" secondItem="amg-vF-cle" secondAttribute="bottom" id="vwW-IT-NHy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="amg-vF-cle" id="thE-GM-Zun"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZqZ-97-9cF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
