@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62F4DCDB564D965DDD8D18E6 /* Pods_EstacoesDeTemperatura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C16C0293DFC7E6946F617C /* Pods_EstacoesDeTemperatura.framework */; };
 		CB1EF03C1DCD6519006A399C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1EF03B1DCD6519006A399C /* AppDelegate.swift */; };
-		CB1EF03E1DCD6519006A399C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1EF03D1DCD6519006A399C /* ViewController.swift */; };
 		CB1EF0411DCD6519006A399C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF03F1DCD6519006A399C /* Main.storyboard */; };
 		CB1EF0431DCD6519006A399C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF0421DCD6519006A399C /* Assets.xcassets */; };
 		CB1EF0461DCD6519006A399C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */; };
+		CB712CBC1DCD678100BB30E2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB712CBB1DCD678100BB30E2 /* MapViewController.swift */; };
+		CB712CBE1DCD67B800BB30E2 /* WeatherStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB712CBD1DCD67B800BB30E2 /* WeatherStation.swift */; };
+		CB712CC01DCD67D800BB30E2 /* WeatherStationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB712CBF1DCD67D800BB30E2 /* WeatherStationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EEA343344896C13B059662E /* Pods-EstacoesDeTemperatura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstacoesDeTemperatura.release.xcconfig"; path = "Pods/Target Support Files/Pods-EstacoesDeTemperatura/Pods-EstacoesDeTemperatura.release.xcconfig"; sourceTree = "<group>"; };
+		ACB0B9484D4349847C1A0F27 /* Pods-EstacoesDeTemperatura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EstacoesDeTemperatura.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EstacoesDeTemperatura/Pods-EstacoesDeTemperatura.debug.xcconfig"; sourceTree = "<group>"; };
+		C0C16C0293DFC7E6946F617C /* Pods_EstacoesDeTemperatura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EstacoesDeTemperatura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1EF0381DCD6519006A399C /* EstacoesDeTemperatura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstacoesDeTemperatura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1EF03B1DCD6519006A399C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB1EF03D1DCD6519006A399C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB1EF0401DCD6519006A399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB1EF0421DCD6519006A399C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1EF0451DCD6519006A399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB1EF0471DCD6519006A399C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB712CBB1DCD678100BB30E2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CB712CBD1DCD67B800BB30E2 /* WeatherStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherStation.swift; sourceTree = "<group>"; };
+		CB712CBF1DCD67D800BB30E2 /* WeatherStationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherStationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F4DCDB564D965DDD8D18E6 /* Pods_EstacoesDeTemperatura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AE637D5CAF09037324E3267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C16C0293DFC7E6946F617C /* Pods_EstacoesDeTemperatura.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9936D455951261C974CF3F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0B9484D4349847C1A0F27 /* Pods-EstacoesDeTemperatura.debug.xcconfig */,
+				4EEA343344896C13B059662E /* Pods-EstacoesDeTemperatura.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB1EF02F1DCD6519006A399C = {
 			isa = PBXGroup;
 			children = (
 				CB1EF03A1DCD6519006A399C /* EstacoesDeTemperatura */,
 				CB1EF0391DCD6519006A399C /* Products */,
+				A9936D455951261C974CF3F0 /* Pods */,
+				6AE637D5CAF09037324E3267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,48 @@
 		CB1EF03A1DCD6519006A399C /* EstacoesDeTemperatura */ = {
 			isa = PBXGroup;
 			children = (
+				CB712CB71DCD659F00BB30E2 /* Model */,
+				CB712CB81DCD65AC00BB30E2 /* View */,
+				CB712CB91DCD65BD00BB30E2 /* Controller */,
+				CB712CBA1DCD65D300BB30E2 /* Resources */,
 				CB1EF03B1DCD6519006A399C /* AppDelegate.swift */,
-				CB1EF03D1DCD6519006A399C /* ViewController.swift */,
-				CB1EF03F1DCD6519006A399C /* Main.storyboard */,
-				CB1EF0421DCD6519006A399C /* Assets.xcassets */,
-				CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */,
 				CB1EF0471DCD6519006A399C /* Info.plist */,
 			);
 			path = EstacoesDeTemperatura;
+			sourceTree = "<group>";
+		};
+		CB712CB71DCD659F00BB30E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB712CBD1DCD67B800BB30E2 /* WeatherStation.swift */,
+				CB712CBF1DCD67D800BB30E2 /* WeatherStationManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB712CB81DCD65AC00BB30E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EF03F1DCD6519006A399C /* Main.storyboard */,
+				CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB712CB91DCD65BD00BB30E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB712CBB1DCD678100BB30E2 /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB712CBA1DCD65D300BB30E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EF0421DCD6519006A399C /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB1EF04A1DCD6519006A399C /* Build configuration list for PBXNativeTarget "EstacoesDeTemperatura" */;
 			buildPhases = (
+				A680E7C0982EE0F7F4D83775 /* [CP] Check Pods Manifest.lock */,
 				CB1EF0341DCD6519006A399C /* Sources */,
 				CB1EF0351DCD6519006A399C /* Frameworks */,
 				CB1EF0361DCD6519006A399C /* Resources */,
+				2EF2F3AEF058342E07B1C4E2 /* [CP] Embed Pods Frameworks */,
+				C008CC1EC22D533E3959A9EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +197,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EF2F3AEF058342E07B1C4E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstacoesDeTemperatura/Pods-EstacoesDeTemperatura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A680E7C0982EE0F7F4D83775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C008CC1EC22D533E3959A9EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EstacoesDeTemperatura/Pods-EstacoesDeTemperatura-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB1EF0341DCD6519006A399C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1EF03E1DCD6519006A399C /* ViewController.swift in Sources */,
 				CB1EF03C1DCD6519006A399C /* AppDelegate.swift in Sources */,
+				CB712CBE1DCD67B800BB30E2 /* WeatherStation.swift in Sources */,
+				CB712CBC1DCD678100BB30E2 /* MapViewController.swift in Sources */,
+				CB712CC01DCD67D800BB30E2 /* WeatherStationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +372,7 @@
 		};
 		CB1EF04B1DCD6519006A399C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB0B9484D4349847C1A0F27 /* Pods-EstacoesDeTemperatura.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KXL7F2ZKT;
@@ -270,6 +386,7 @@
 		};
 		CB1EF04C1DCD6519006A399C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEA343344896C13B059662E /* Pods-EstacoesDeTemperatura.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KXL7F2ZKT;
@@ -300,6 +417,7 @@
 				CB1EF04C1DCD6519006A399C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
