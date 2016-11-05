@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1EF03C1DCD6519006A399C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1EF03B1DCD6519006A399C /* AppDelegate.swift */; };
+		CB1EF03E1DCD6519006A399C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1EF03D1DCD6519006A399C /* ViewController.swift */; };
+		CB1EF0411DCD6519006A399C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF03F1DCD6519006A399C /* Main.storyboard */; };
+		CB1EF0431DCD6519006A399C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF0421DCD6519006A399C /* Assets.xcassets */; };
+		CB1EF0461DCD6519006A399C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB1EF0381DCD6519006A399C /* EstacoesDeTemperatura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstacoesDeTemperatura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1EF03B1DCD6519006A399C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB1EF03D1DCD6519006A399C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB1EF0401DCD6519006A399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB1EF0421DCD6519006A399C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB1EF0451DCD6519006A399C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB1EF0471DCD6519006A399C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1EF0351DCD6519006A399C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1EF02F1DCD6519006A399C = {
+			isa = PBXGroup;
+			children = (
+				CB1EF03A1DCD6519006A399C /* EstacoesDeTemperatura */,
+				CB1EF0391DCD6519006A399C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1EF0391DCD6519006A399C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EF0381DCD6519006A399C /* EstacoesDeTemperatura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1EF03A1DCD6519006A399C /* EstacoesDeTemperatura */ = {
+			isa = PBXGroup;
+			children = (
+				CB1EF03B1DCD6519006A399C /* AppDelegate.swift */,
+				CB1EF03D1DCD6519006A399C /* ViewController.swift */,
+				CB1EF03F1DCD6519006A399C /* Main.storyboard */,
+				CB1EF0421DCD6519006A399C /* Assets.xcassets */,
+				CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */,
+				CB1EF0471DCD6519006A399C /* Info.plist */,
+			);
+			path = EstacoesDeTemperatura;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1EF0371DCD6519006A399C /* EstacoesDeTemperatura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1EF04A1DCD6519006A399C /* Build configuration list for PBXNativeTarget "EstacoesDeTemperatura" */;
+			buildPhases = (
+				CB1EF0341DCD6519006A399C /* Sources */,
+				CB1EF0351DCD6519006A399C /* Frameworks */,
+				CB1EF0361DCD6519006A399C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EstacoesDeTemperatura;
+			productName = EstacoesDeTemperatura;
+			productReference = CB1EF0381DCD6519006A399C /* EstacoesDeTemperatura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1EF0301DCD6519006A399C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kassiane S Mentz";
+				TargetAttributes = {
+					CB1EF0371DCD6519006A399C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3KXL7F2ZKT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB1EF0331DCD6519006A399C /* Build configuration list for PBXProject "EstacoesDeTemperatura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1EF02F1DCD6519006A399C;
+			productRefGroup = CB1EF0391DCD6519006A399C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1EF0371DCD6519006A399C /* EstacoesDeTemperatura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1EF0361DCD6519006A399C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1EF0461DCD6519006A399C /* LaunchScreen.storyboard in Resources */,
+				CB1EF0431DCD6519006A399C /* Assets.xcassets in Resources */,
+				CB1EF0411DCD6519006A399C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1EF0341DCD6519006A399C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1EF03E1DCD6519006A399C /* ViewController.swift in Sources */,
+				CB1EF03C1DCD6519006A399C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB1EF03F1DCD6519006A399C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1EF0401DCD6519006A399C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1EF0441DCD6519006A399C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1EF0451DCD6519006A399C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1EF0481DCD6519006A399C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB1EF0491DCD6519006A399C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1EF04B1DCD6519006A399C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3KXL7F2ZKT;
+				INFOPLIST_FILE = EstacoesDeTemperatura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edm.kassimentz.EstacoesDeTemperatura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB1EF04C1DCD6519006A399C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3KXL7F2ZKT;
+				INFOPLIST_FILE = EstacoesDeTemperatura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edm.kassimentz.EstacoesDeTemperatura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1EF0331DCD6519006A399C /* Build configuration list for PBXProject "EstacoesDeTemperatura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1EF0481DCD6519006A399C /* Debug */,
+				CB1EF0491DCD6519006A399C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1EF04A1DCD6519006A399C /* Build configuration list for PBXNativeTarget "EstacoesDeTemperatura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1EF04B1DCD6519006A399C /* Debug */,
+				CB1EF04C1DCD6519006A399C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1EF0301DCD6519006A399C /* Project object */;
+}
