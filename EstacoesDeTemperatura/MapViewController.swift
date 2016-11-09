@@ -27,6 +27,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         weatherStationManager.loadWeatherStations{ (weatherStations, error) in
             if error == nil {
                 
+                self.weatherStations = weatherStations!
                 
                 for item in self.weatherStations {
                     
