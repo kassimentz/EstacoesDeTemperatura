@@ -42,8 +42,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     func loadLocations (latitude: Double, longitude: Double, estacao: String?, temperatura: Double?){
         
-        let latDelta: CLLocationDegrees = 0.09
-        let lonDelta: CLLocationDegrees = 0.09
+        let latDelta: CLLocationDegrees = 0.50
+        let lonDelta: CLLocationDegrees = 0.50
         let span: MKCoordinateSpan = MKCoordinateSpanMake(latDelta, lonDelta)
         
         let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
@@ -52,19 +52,20 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         annotation.coordinate = location
         
         if let estacao = estacao {
-            annotation.subtitle = "Estação: \(estacao)"
+            annotation.title = "Estação: \(estacao)"
         } else {
-            annotation.subtitle = "Sensação: -"
+            annotation.title = "Sensação: -"
         }
         
         if let temperatura = temperatura {
-            annotation.title = "Temperatura: \(temperatura)"
+            annotation.subtitle = "Temperatura: \(temperatura)"
         } else {
-            annotation.title = "Temperatura: -"
+            annotation.subtitle = "Temperatura: -"
         }
         
         let region: MKCoordinateRegion = MKCoordinateRegionMake(location, span)
         mapView.setRegion(region, animated: true)
+        mapView.addAnnotation(annotation)
         
     }
     
@@ -89,15 +90,17 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
     
-    func mapViewDidFinishRenderingMap(_ mapView: MKMapView, fullyRendered: Bool) {
-        self.mapView.addAnnotation(annotation)
-    }
+//    func mapViewDidFinishRenderingMap(_ mapView: MKMapView, fullyRendered: Bool) {
+//        self.mapView.addAnnotation(annotation)
+//    }
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
         self.loadData()
+        
+        self.mapView.delegate = self
         
 
         // Do any additional setup after loading the view.
