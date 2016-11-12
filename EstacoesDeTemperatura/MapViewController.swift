@@ -100,6 +100,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         self.loadData()
         
+        //necessário para usar as funcoes do objeto
         self.mapView.delegate = self
         
 
